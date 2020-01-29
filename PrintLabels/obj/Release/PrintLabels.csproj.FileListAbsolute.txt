@@ -1,0 +1,9 @@
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Release\Print Labels.exe.config
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Release\Print Labels.exe
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Release\Print Labels.pdb
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\PrintLabels.csprojAssemblyReference.cache
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\PrintLabels.PrintLabels.resources
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\PrintLabels.Properties.Resources.resources
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\PrintLabels.csproj.GenerateResource.cache
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\Print Labels.exe
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Release\Print Labels.pdb

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLabelRow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,10,0,4,1,1,N</Command>
+    <Text>SO-126289</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,40,0,3,1,1,N</Command>
+    <Text>Description: 04948-REVB</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,65,0,3,1,1,N</Command>
+    <Text>Bundle 7 x WF185/200/250SiA</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,105,0,3,1,1,N</Command>
+    <Text>Fib.Batch:</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,130,0,3,1,1,N</Command>
+    <Text>S1981302 19A328</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,155,0,3,1,1,N</Command>
+    <Text>Item LOT#:B200052L</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,180,0,3,1,1,N</Command>
+    <Text>Ser.# 111463</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,220,0,3,1,1,N</Command>
+    <Text>Qty: 5</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,245,0,3,1,1,N</Command>
+    <Text>Prod.Date: 08.01.2020</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>true</Print>
+    <Command>A190,265,0,3,1,1,N</Command>
+    <Text>Manufactured by CeramOptec</Text>
+  </LabelRow>
+</ArrayOfLabelRow>

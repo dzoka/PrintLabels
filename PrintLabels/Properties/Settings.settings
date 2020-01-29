@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Print_Labels.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PrinterName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShowCommand" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DefinedLines" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrintLabels.xml</Value>
+    </Setting>
+    <Setting Name="OutputLabelFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PrintLabels.txt</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

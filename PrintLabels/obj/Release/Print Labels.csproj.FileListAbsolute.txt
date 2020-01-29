@@ -1,0 +1,28 @@
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Print Labels.exe.config
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Print Labels.exe
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Print Labels.pdb
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Csv.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\FluentFTP.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Microsoft.Extensions.DependencyModel.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Newtonsoft.Json.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SdkApi.Core.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SdkApi.Desktop.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SdkApi.Desktop.Usb.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SharpSnmpLib.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\ZebraPrinterSdk.dll
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Csv.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\FluentFTP.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\Newtonsoft.Json.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SdkApi.Core.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\SdkApi.Desktop.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Release\ZebraPrinterSdk.xml
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print Labels.csprojAssemblyReference.cache
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print_Labels.PrintLabels.resources
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print_Labels.Properties.Resources.resources
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print Labels.csproj.GenerateResource.cache
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print Labels.csproj.CopyComplete
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print Labels.exe
+C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Release\Print Labels.pdb
