@@ -93,17 +93,23 @@ namespace PrintLabels
 
         private void buttonPrint_Click(object sender, EventArgs e)
         {
-            #region create output label file
+            #region create label file
 
             try
             {
                 StreamWriter streamWriter = new StreamWriter(outputLabelFile, false, Encoding.ASCII);
-                streamWriter.WriteLine("N");
                 foreach (LabelRow r in labelRows)
                 {
                     if (r.Print)
                     {
-                        streamWriter.WriteLine("{0},\"{1}\"", r.Command, r.Text);
+                        if (string.IsNullOrEmpty(r.Text))
+                        {
+                            streamWriter.WriteLine("{0}", r.Command);
+                        }
+                        else
+                        {
+                            streamWriter.WriteLine("{0},\"{1}\"", r.Command, r.Text);
+                        }
                     }
                 }
                 streamWriter.WriteLine("P{0}", textBoxQuantity.Text.ToString());
@@ -119,25 +125,39 @@ namespace PrintLabels
 
             #region send label file to printer
 
-            //Connection connection = ConnectionBuilder.Build(String.Format("USB:{0}", textBoxPrinterName.Text));
-            //try
-            //{
-            //    connection.Open();
-            //    ZebraPrinter printer = ZebraPrinterFactory.GetInstance(connection);
-            //    printer.SendFileContents(outputLabelFile);
-            //}
-            //catch (Exception ex)
-            //{
-            //    _ = MessageBox.Show(ex.Message, "Stop", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
-            //finally
-            //{
-            //    connection.Close();
-            //}
-
             RawPrinterHelper.SendFileToPrinter(textBoxPrinterName.Text, outputLabelFile);
 
             #endregion
         }
+
+        #region field validation
+
+        private void textBoxQuantity_Validating(object sender, CancelEventArgs e)
+        {
+            if(int.TryParse(textBoxQuantity.Text, out int tempInt))
+            {
+                if(tempInt > 0)
+                {
+                    e.Cancel = false;
+                }
+                else
+                {
+                    errorProvider1.SetError(textBoxQuantity, "Must be positive integer");
+                    e.Cancel = true;
+                }
+            }
+            else
+            {
+                errorProvider1.SetError(textBoxQuantity, "Must be an integer");
+                e.Cancel = true;
+            }
+        }
+
+        private void textBoxQuantity_Validated(object sender, EventArgs e)
+        {
+            errorProvider1.Clear();
+        }
+
+        #endregion
     }
 }

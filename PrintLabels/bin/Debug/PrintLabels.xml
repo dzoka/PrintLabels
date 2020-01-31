@@ -46,8 +46,41 @@
     <Text>Prod.Date: 08.01.2020</Text>
   </LabelRow>
   <LabelRow>
-    <Print>true</Print>
-    <Command>A190,265,0,3,1,1,N</Command>
-    <Text>Manufactured by CeramOptec</Text>
+    <Print>false</Print>
+    <Command>FS"Myform"</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>C0,5,L,+1</Command>
+    <Text>test</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>A190,180,0,3,1,1,N,C0</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>V00,15,N</Command>
+    <Text>test</Text>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>190,180,0,3,1,1,N,V00</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>FE</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>FR</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Command>FI</Command>
+  </LabelRow>
+  <LabelRow>
+    <Print>false</Print>
+    <Text>eee</Text>
   </LabelRow>
 </ArrayOfLabelRow>

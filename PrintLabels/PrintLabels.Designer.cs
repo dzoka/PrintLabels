@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBoxPrinterName = new System.Windows.Forms.TextBox();
             this.buttonSelectPrinter = new System.Windows.Forms.Button();
@@ -35,7 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxQuantity = new System.Windows.Forms.TextBox();
             this.checkBoxShowCommand = new System.Windows.Forms.CheckBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -91,6 +94,8 @@
             this.textBoxQuantity.Size = new System.Drawing.Size(33, 20);
             this.textBoxQuantity.TabIndex = 5;
             this.textBoxQuantity.Text = "1";
+            this.textBoxQuantity.Validating += new System.ComponentModel.CancelEventHandler(this.textBoxQuantity_Validating);
+            this.textBoxQuantity.Validated += new System.EventHandler(this.textBoxQuantity_Validated);
             // 
             // checkBoxShowCommand
             // 
@@ -102,6 +107,10 @@
             this.checkBoxShowCommand.Text = "Show command";
             this.checkBoxShowCommand.UseVisualStyleBackColor = true;
             this.checkBoxShowCommand.CheckedChanged += new System.EventHandler(this.checkBoxShowCommand_CheckedChanged);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // PrintLabels
             // 
@@ -122,6 +131,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PrintLabels_FormClosing);
             this.Load += new System.EventHandler(this.PrintLabels_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +146,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxQuantity;
         private System.Windows.Forms.CheckBox checkBoxShowCommand;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 

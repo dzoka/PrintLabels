@@ -7,3 +7,11 @@ C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Debug\Print Labels.e
 C:\Users\dbarens\source\repos\Print Labels\Print Labels\bin\Debug\Print Labels.pdb
 C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Debug\Print Labels.exe
 C:\Users\dbarens\source\repos\Print Labels\Print Labels\obj\Debug\Print Labels.pdb
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Debug\Print Labels.exe.config
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Debug\Print Labels.exe
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\bin\Debug\Print Labels.pdb
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Debug\PrintLabels.PrintLabels.resources
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Debug\PrintLabels.Properties.Resources.resources
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Debug\PrintLabels.csproj.GenerateResource.cache
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Debug\Print Labels.exe
+C:\Users\dbarens\Documents\PrintLabels\PrintLabels\obj\Debug\Print Labels.pdb
